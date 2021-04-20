@@ -179,11 +179,7 @@ In addition to meeting all of the requirements outlined in the assignment sheet,
 ✔  The command output has exactly 0 of the 'Add Your Name Here' fragment
 ✔  The report.md in  has at least 1 of the 'code_block' tag
 
-
-	┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-	┃ Passed 11/11 (100%) of checks for cmpsc-203-spring-2021-lab06! ┃
-	┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```	
+```
 
 ## Receiving Assistance
 
