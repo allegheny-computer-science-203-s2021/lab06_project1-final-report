@@ -43,7 +43,7 @@ please ensure that:
 
 - The GitHub repository for the long-term software engineering project has closed issues or merged pull requests for which there is evidence that you made a significant contribution to the task.
 
-- This GitHub repository contains a completed reflection file. You need to complete the checklist and then make sure that you provide a thorough response to all of the technical writing questions in this file. Please make sure that the contents of your reflection file passes the linting checks that are run in GitHub Actions CI. Please use this file to furnish clear evidence of your contributions to this long-term software engineering project.
+- This GitHub repository contains a completed report file. You need to complete the checklist and then make sure that you provide a thorough response to all of the technical writing questions in this file. Please make sure that the contents of your reflection file passes the linting checks that are run in GitHub Actions CI. Please use this file to furnish clear evidence of your contributions to this long-term software engineering project.
 
 - This GitHub repository contains a completed assessment file. Notably, you should copy over the assessment file from the previous week and then continue to add to that version of the file as you demonstrate the proficiency of new technical and professional skills in software engineering throughout this week. You need to write sentences that explain your current level of proficiency for a specific technical or professional skill and then justify why you are making that assessment. Please make sure that the contents of your assessment file passes the linting checks that are run in GitHub Actions CI.
 
