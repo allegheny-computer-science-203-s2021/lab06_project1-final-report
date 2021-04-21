@@ -9,16 +9,20 @@ jobs:
   grade:
     runs-on: ubuntu-latest #self-hosted
     steps:
-    - uses: gabrielfalcao/pyenv-action@v6
-      with:
-        default: 3.6.3
+    - run: |
+        echo "/home/runner/.pyenv/bin" >> $GITHUB_PATH
+        echo "/home/runner/.local/bin" >> $GITHUB_PATH
     - uses: actions/checkout@v2
       with:
         fetch-depth: '0'
     - name: Set up grading environment
       run: |
+        curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+        pyenv install 3.6.3
+        echo "eval '$(pyenv init -)'" >> ~/.bashrc
+        eval "$(pyenv virtualenv-init -)" >> ~/.bashrc
+        source ~/.bashrc
         pyenv global 3.6.3
-        export PATH="/home/runner/.local/bin:$PATH"
         pip install --upgrade pip
         pip install pipenv
     - name: Check lab
