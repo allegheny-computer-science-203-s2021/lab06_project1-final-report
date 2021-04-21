@@ -5,6 +5,7 @@
 TODO: Please use an "X" symbol to indicate if you completed the specified task.
 
 - [ ] Contributed to the GitHub Issue Tracker.
+- [ ] Contributed commits to GatorMiner branch.
 - [ ] Contributed to the GitHub Pull Requests.
 - [ ] Used ZenHub board and contributed to scrum lead's management of ZenHub board.
 - [ ] Commits merged to the master branch on GitHub.
